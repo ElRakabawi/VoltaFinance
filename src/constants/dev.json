@@ -1,0 +1,38 @@
+{
+  "tokens": {
+    "GNS": {
+      "name": "Gains Network",
+      "contract":"18c11FD286C5EC11c3b683Caa813B77f5163A122",
+      "type": "erc20",
+      "img": "https://s2.coinmarketcap.com/static/img/coins/128x128/13663.png"
+    },
+    "voltGNS": {
+      "name": "Volt GNS",
+      "address":"23B7a7556B600811E311452B03E6F0bB1F464125",
+      "type": "erc20",
+      "img": ""
+    },
+    "VOLT": {
+      "name": "Volt",
+      "address":"aF48326d0D6B2156010C598a71862c7699441D5D",
+      "type": "erc20",
+      "img": ""
+      },
+    "gDAI": {
+      "name": "Gains DAI",
+      "address":"d85E038593d7A098614721EaE955EC2022B9B91B",
+      "type": "erc20",
+      "img": ""
+    }
+  },
+  "vaults": {
+    "gDAI": {
+      "name": "gDAI",
+      "address": "5546DA27B6de0E3A9cB9605c0cA068600d1f80C9"
+    },
+    "voltGNS" : {
+      "name": "voltGNS",
+      "address": "f0167492C704ff3038E77ff454f3bC4386613B84"
+    }
+  }
+}

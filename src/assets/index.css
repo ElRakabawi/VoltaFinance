@@ -1,0 +1,63 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Urbanist:ital@1&display=swap');
+
+/* tailwind base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* adding some fun */
+/* * { 
+    transition: all 400ms ease-in-out;
+} */
+
+/* custom styles */
+:root {
+    --lines-image: url('/lines.svg');
+    --mono-noise-image: url('/mono-noise.webp');
+    --gradient-noise-image: url('/gradient-noise.webp');
+}
+body {
+    background-color: #0D0D10;
+}
+
+/* default behaviour overrides */
+input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+  }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none;
+}
+input:focus {
+    outline: none !important;
+    text-decoration: none !important;
+    outline-offset: 0px !important;
+    --tw-ring-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.p-t-10 {
+    padding-top: 10px !important;
+}
+
+.swap {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow:hidden;
+    background: #1a1b1f; 
+    box-shadow: 0 0 2px gray;
+    margin-top: -4px;
+    margin-bottom: -20px;
+}
+
+.swap-arrow {
+    transition: transform 0.3s ease-in-out;
+}
+
+.swap-arrow:hover {
+    transform: rotate(-180deg);
+}
